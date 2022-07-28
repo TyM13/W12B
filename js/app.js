@@ -8,7 +8,7 @@ url: `http://www.boredapi.com/api/activity/`
 }
 
 
-function successlink(response) {                                            // injects the tages below and goins into response gets the data and displays the string
+function successlink(response) {                                            // injects the tages below (goes into response gets the data and displays the string thats called for)
     
     document.body.insertAdjacentHTML(`afterend`, `<section>                 
     <h1>${response[`data`][`activity`]}</h1>
